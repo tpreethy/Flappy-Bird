@@ -49,7 +49,7 @@ scor.src = "sounds/score.mp3";
 
 //draw images
 
-window.onload = function draw(){
+function draw(){
    
    ctx.drawImage(bg,0,0);
 
