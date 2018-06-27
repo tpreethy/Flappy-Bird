@@ -71,7 +71,9 @@ function draw(){
     if(bx + bird.width >= pipe[i].x && bx <= pipe[i].x + pipeNorth.width 
        && (by <= pipe[i].y + pipeNorth.height || by+bird.height >= pipe[i].y+pipeNorth.height+gap)
        || (by + bird.height >= cvs.height-fg.height)){
+           debugger;
            location.reload(); //reload the page
+           debugger;
        }
     
       if(pipe[i].x ==5){
